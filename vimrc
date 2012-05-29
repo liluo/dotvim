@@ -1,7 +1,8 @@
 " Pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
-filetype off
+call pathogen#helptags()
+filetype on
 syntax on
 filetype plugin indent on
 
@@ -27,5 +28,5 @@ autocmd FileType html set sw=2
 autocmd FileType html set ts=2
 autocmd FileType erb set sw=2
 autocmd FileType erb set ts=2
-"autocmd FileType markdown set sw=2 
-"autocmd FileType markdown set ts=2
+autocmd FileType markdown set sw=2 
+autocmd FileType markdown set ts=2
