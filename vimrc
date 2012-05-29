@@ -1,5 +1,5 @@
 " Pathogen
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 filetype off
 syntax on
 filetype plugin indent on
@@ -26,3 +26,5 @@ autocmd FileType html set sw=2
 autocmd FileType html set ts=2
 autocmd FileType erb set sw=2
 autocmd FileType erb set ts=2
+"autocmd FileType markdown set sw=2 
+"autocmd FileType markdown set ts=2
