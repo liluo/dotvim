@@ -20,13 +20,5 @@ set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
 autocmd FileType python set sw=4 
 autocmd FileType python set ts=4
-autocmd FileType ruby set sw=2 
-autocmd FileType ruby set ts=2
-autocmd FileType javascript set ts=2
-autocmd FileType javascript set sw=2 
-autocmd FileType html set sw=2 
-autocmd FileType html set ts=2
-autocmd FileType erb set sw=2
-autocmd FileType erb set ts=2
-autocmd FileType markdown set sw=2 
-autocmd FileType markdown set ts=2
+autocmd FileType ruby,javascript,html,erb,markdown set sw=2 
+autocmd FileType ruby,javascript,html,erb,markdown set ts=2 
