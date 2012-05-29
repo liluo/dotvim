@@ -16,6 +16,3 @@
 [submodule "bundle/vim-django"]
 	path = bundle/vim-django
 	url = git://github.com/liluo/vim-django.git
-[submodule "bundle/vim-python"]
-	path = bundle/vim-python
-	url = git://github.com/liluo/vim-python.git
