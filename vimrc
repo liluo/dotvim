@@ -5,7 +5,9 @@ call pathogen#helptags()
 filetype on
 syntax on
 filetype plugin indent on
-"colorscheme desert
+
+colorscheme desert 
+"colorscheme murphy
 
 set nu
 set tabstop=4
