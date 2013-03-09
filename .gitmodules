@@ -18,7 +18,7 @@
 	url = git://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/vim-slim"]
 	path = bundle/vim-slim
-    url = git://github.com/slim-template/vim-slim.git
+	url = git://github.com/slim-template/vim-slim.git
 [submodule "bundle/vim-python"]
-	path = bundle/python-mode
+	path = bundle/vim-python
 	url = git://github.com/klen/python-mode.git
