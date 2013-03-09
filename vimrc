@@ -1,17 +1,12 @@
 " Pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
-" call pathogen#infect()
-" call pathogen#helptags()
-" filetype on
 execute pathogen#infect()
 execute pathogen#helptags()
 syntax on
 filetype plugin indent on
 
-syntax enable
-colorscheme desert 
+set background=dark
 colorscheme solarized
-"colorscheme murphy
 
 set nu
 set tabstop=4
