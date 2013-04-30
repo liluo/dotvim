@@ -28,3 +28,6 @@
 [submodule "bundle/vim-ack"]
 	path = bundle/vim-ack
 	url = git://github.com/mileszs/ack.vim.git
+[submodule "bundle/vim-zen"]
+	path = bundle/vim-zen
+	url = git://github.com/mattn/zencoding-vim.git
